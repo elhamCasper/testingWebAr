@@ -1,0 +1,192 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5125,
+         "count" : 8040,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 8040,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 8040,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 8040,
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 4,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 481,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 5,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 481,
+         "type" : "VEC4"
+      }
+   ],
+   "animations" : [
+      {
+         "channels" : [
+            {
+               "sampler" : 0,
+               "target" : {
+                  "node" : 1,
+                  "path" : "rotation"
+               }
+            }
+         ],
+         "name" : "Scene",
+         "samplers" : [
+            {
+               "input" : 4,
+               "interpolation" : "LINEAR",
+               "output" : 5
+            }
+         ]
+      }
+   ],
+   "asset" : {
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 32160,
+         "byteOffset" : 0
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 96480,
+         "byteOffset" : 32160
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 96480,
+         "byteOffset" : 128640
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 64320,
+         "byteOffset" : 225120
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1924,
+         "byteOffset" : 289440,
+         "byteStride" : 4
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 7696,
+         "byteOffset" : 291364,
+         "byteStride" : 16
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 299060,
+         "uri" : "model.bin"
+      }
+   ],
+   "images" : [
+      {
+         "uri" : "Soda_Mat_Eureka.png"
+      }
+   ],
+   "materials" : [
+      {
+         "name" : "Material",
+         "pbrMetallicRoughness" : {
+            "baseColorTexture" : {
+               "index" : 0,
+               "texCoord" : 0
+            }
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "children" : [ 1, 3 ],
+         "name" : "RootNode",
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "children" : [ 2 ],
+         "name" : "CanDrink",
+         "rotation" : [ -0.7071068387877038, 0, 0, 0.7071067235853865 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "mesh" : 0,
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "name" : "Empty",
+         "rotation" : [
+            1.545431263184728e-08,
+            0.7071067544940085,
+            -1.545431146507918e-08,
+            0.7071068078790852
+         ],
+         "scale" : [ 0.9999999999999999, 0.9999999999999999, 0.9999999999999999 ],
+         "translation" : [ -2.625737329286397e-33, -1.182527451068676e-17, 0.05325630187988281 ]
+      }
+   ],
+   "samplers" : [
+      {
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
+   "scenes" : [
+      {
+         "nodes" : [ 0 ]
+      }
+   ],
+   "textures" : [
+      {
+         "sampler" : 0,
+         "source" : 0
+      }
+   ]
+}
